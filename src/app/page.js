@@ -25,7 +25,7 @@ export default function Home() {
             {/*<BaseAccordion id="faq" title="Частые вопросы" items={faq} />*/}
             {/*<CoordinatorBlock />*/}
             {/*<PartnersBlock />*/}
-            <PhoneBlock text="Позвоните сейчас и начните восстановление" />
+            <PhoneBlock text="Позвоните сейчас и начните восстановление!" />
             {/*<BaseAccordion id="service" title="Услуги" items={services} />*/}
             {/*<TextBlock text={text1} />*/}
             <ContactsBlock />

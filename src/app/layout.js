@@ -26,6 +26,9 @@ export const metadata = {
         url: 'https://stroke.mskdoctor.ru',
         type: 'website',
         locale: 'ru_RU',
+    },
+    alternates: {
+        canonical: 'https://stroke.mskdoctor.ru',
     }
 };
 

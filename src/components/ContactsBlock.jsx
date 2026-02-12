@@ -1,10 +1,10 @@
+import { memo } from 'react';
 import { Box, Link, Typography } from '@mui/material';
 import { email, phoneNumber, phoneNumber2 } from '@/config';
-// import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
-import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import CallIcon from '@mui/icons-material/Call';
 import SocialBlock from '@/components/SocialBlock';
-import { memo } from 'react';
+// import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 
 export const ContactsBlock = memo(() => {
     return (
@@ -36,7 +36,7 @@ export const ContactsBlock = memo(() => {
                     </Box>*/}
 
                     <Box sx={{ display: 'flex', gap: '10px' }}>
-                        <LocalPhoneOutlinedIcon sx={{ color: 'var(--red)' }} />
+                        <CallIcon sx={{ color: 'var(--red)' }} />
                         <Box sx={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
                             <Link href={`tel:${phoneNumber}`}
                                   sx={{ fontSize: { xs: '14px', sm: '16px' } }}>{phoneNumber}</Link>
@@ -59,7 +59,7 @@ export const ContactsBlock = memo(() => {
 
 
                 </Box>
-                <Box sx={{visibility: 'hidden'}}>
+                <Box sx={{ visibility: 'hidden' }}>
                     {/*<iframe
                         className='map'
                         src="https://yandex.ru/map-widget/v1/?um=constructor%3A604ee8345ca097d664aa1c7764529b62cb0469a88360ead0ce5d5df219788165&amp;source=constructor"
